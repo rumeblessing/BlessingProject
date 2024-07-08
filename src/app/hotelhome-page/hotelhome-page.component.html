@@ -1,0 +1,263 @@
+<div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
+  <!-- Vertical Navbar -->
+  <div class="bg-dark d-lg-block d-sm-none" style="width: 269px; height: 100vh">
+    <img
+      src="../../assets/images/white.jpeg"
+      class="card-ima card-image d-flex ms-4 mb-4 mt-3"
+      alt="..."
+    />
+    <div class="card-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-house me-2"></i>Dashboard
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-bar-chart me-2"></i>Manage Rooms
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-chat me-2"></i>Manage Bookings
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-chat me-2"></i>Manage Users
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-journals me-2"></i>Room Categories
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-people-fill me-2"></i>Reviews And Ratings
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-people-fill me-2"></i>Manage Role And Menu
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-people-fill me-2"></i>Report
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-person-workspace me-2"></i>Account
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <i class="bi bii bi-box-arrow-in-left me-2"></i>Log Out
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="h-screen flex-grow-1 overflow-y-lg-auto bg-light">
+    <!-- Header -->
+    <nav class="navbar nav border shadow-sm">
+      <span class="navbar-brand fw-bold mt-3 ms-4">Welcome, Blessing</span>
+      <div class="container ms-4 mt-3 mb-2">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand nav-text me-4" href="#">Overview</a>
+            <div class="navbar-nav">
+              <a class="nav-link active me-4" aria-current="page" href="#"
+                >Registered Users</a
+              >
+              <a class="nav-link nav-text2 me-4" href="#">Bookings</a>
+              <a class="nav-link nav-text2 me-4" href="#">Due Checkout</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main
+      style="
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 2em;
+        background-color: white;
+        position: fixed;
+        overflow: auto;
+        height: 83.1vh;
+        width: 80%;
+      "
+    >
+      <!-- Content Projection: Page content will be inserted here -->
+      <div class="row" style="place-content: center">
+        <div class="col-3 shadow-lg">
+          <div class="card" style="width: 14rem; height: 7rem; padding: 1em">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-9">
+                  <h5 class="card-title">Today's Booking</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                    $750.90
+                  </h6>
+                  <div class="mt-4 ms-1 text-sm">
+                    <span class="badge badge-pill bg-success text-white me-2">
+                      <i class="bi bi-arrow-up"></i>13%
+                    </span>
+                    <span class="small text-muted">Since last month</span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <i class="bi biii bi-clock text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 shadow-lg">
+          <div class="card" style="width: 14rem; height: 7rem">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-9">
+                  <h5 class="card-title">Today's Revenue</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                    N234,900
+                  </h6>
+                  <div class="mt-4 ms-1 text-sm">
+                    <span class="badge badge-pill bg-success text-white me-2"
+                      >0%
+                    </span>
+                    <span class="small text-muted">Total Revenue</span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <i class="bi biii bi-envelope-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 shadow-lg">
+          <div class="card" style="width: 14rem; height: 7rem">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-9">
+                  <h5 class="card-title">Available Rooms</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">215</h6>
+                  <div class="mt-4 ms-1 text-sm">
+                    <span class="badge badge-pill bg-success text-white me-2">
+                      <i class="bi bi-arrow-up"></i>13%
+                    </span>
+                    <span class="small text-muted">Since last month</span>
+                  </div>
+                </div>
+                <div class="col-3"><i class="bi biii bi-people-fill"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 shadow-lg">
+          <div class="card" style="width: 14rem; height: 7rem">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-9">
+                  <h5 class="card-title">Total Users</h5>
+                  <h6>10</h6>
+                  <div class="mt-4 ms-1 text-sm">
+                    <span class="badge badge-pill bg-danger text-white me-2">
+                      <i class="bi bi-arrow-up"></i>
+                    </span>
+                    <span class="small text-muted">Live Till Date</span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <i class="bi biii text-primary bi-people-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="shadow-sm p-3 mb-5 bg-body">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand">Recent Booking</a>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn bg-black text-white" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div> -->
+
+      <div class="row" style="position: relative; background-color: #fea115">
+        <table id="grid" class="table table-hover">
+          <thead>
+            <tr>
+              <th>FullName</th>
+              <th>Email</th>
+              <th>PhoneNumber</th>
+              <th>Is Staff</th>
+              <th></th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal"
+        id="ModalContent"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" style="width: 60vw !important">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Edit Table</h5>
+            </div>
+            <div class="modal-body p-3" style="width: 60vw !important">
+              <form [formGroup]="form">
+                <div class="row" style="display: flex; flex-direction: row">
+                  <div style="flex-basis: 50%; place-content: center">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" formControlName="FullName" />
+                  </div>
+                  <div style="flex-basis: 50%">
+                    <label for="lname">Email:</label>
+                    <input type="email" formControlName="email" />
+                  </div>
+                </div>
+                <div class="row" style="display: flex">
+                  <div style="flex-basis: 50%">
+                    <label for="lname">Phone Number:</label>
+                    <input type="tel" formControlName="Phonenumber" />
+                  </div>
+                  <div style="flex-basis: 50%">
+                    <label for="lname">is Staff:</label>
+                    <input type="radio" formControlName="isStaff" value="Yes" />
+                    <label for="age1">Yes</label>
+                    <input type="radio" formControlName="isStaff" value="No" />
+                    <label for="age2">No</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                (click)="Modalclose()"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary" (click) = "saveForm(form)">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
